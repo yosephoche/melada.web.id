@@ -1,0 +1,159 @@
+body, html{
+	height: 100%;
+}
+.header{
+	background-image: url("../img/header2.jpg");
+	height: 80vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.shape-header{
+	width:60%;
+    height:100%;
+    background:linear-gradient(to right, #48cfad 5%, #3bafda 90%);
+    margin-left: -110px;
+    position:relative;
+    -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+}
+.shape-text{
+	color: #fff;
+	padding-top: 20%;
+	text-align: center;
+	-webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+}
+.shape-text p{
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+
+
+.tombol button{
+	width: 150px;
+	padding-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.judul{
+	margin-top: 25px;
+	margin-left: 40%;
+	text-align: center;
+	width : 300px;
+	border-bottom: 1px solid #aaa;
+}
+
+.isi{
+	height: 200px;
+	margin: 5px;
+}
+.isi h3{
+	color: #fff;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.category{
+	margin-top: 50px;
+}
+
+.html{
+	background-image: url("../img/html.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.css{
+	background-image: url("../img/css.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.js{
+	background-image: url("../img/js.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.sql{
+	background-image: url("../img/php.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.php{
+	background-image: url("../img/network.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.ds{
+	background-image: url("../img/ds.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.subs{
+	color: #fff;
+	background-image: url("../img/coding.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 250px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	
+}
+.form-sub input{
+	margin-bottom: 10px;
+}
+.card{
+	width: 20rem;
+}
+.title-sub{
+	margin-top: 20px;
+}
+.isi-pop{
+	margin-top: 40px;
+	margin-right: 80px;
+}
+
+.text-sm{
+	margin-top: 10%;
+	margin-bottom: 30%;
+	text-align: center;
+	color: #fff;
+}
+
+.f-sm{
+	margin-top: 5%;
+}
+
+.f-text{
+	margin-left: 18%;
+	width: 250px;
+}
+@media (max-width: 576px) {
+	.header{
+		background-image: url("../img/header3.jpg");
+		height: 10%;
+	}
+	.judul{
+		margin-left: 18%;
+		text-align: center;
+	}
+	.isi{
+		height: 150px;
+	}
+	.f-text{
+		margin-left: 10%;
+		width: 50%;
+	}
+	.subs{
+		visibility: hidden;
+	}
+}
