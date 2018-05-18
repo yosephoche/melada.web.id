@@ -1,0 +1,28 @@
+{
+  "name": "melada.web.id",
+  "version": "1.0.0",
+  "description": "Website belajar online makassar",
+  "main": "index.js",
+  "dependencies": {
+    "cssnano": "^3.10.0"
+  },
+  "devDependencies": {
+    "cssnano": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhitstrife/melada.web.id.git"
+  },
+  "keywords": [
+    "melada"
+  ],
+  "author": "melada team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adhitstrife/melada.web.id/issues"
+  },
+  "homepage": "https://github.com/adhitstrife/melada.web.id#readme"
+}
