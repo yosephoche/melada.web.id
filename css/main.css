@@ -22,7 +22,7 @@ li.nav-item .btn-white {
   color: #46484a; 
 }
 .cover{
-	background-image: linear-gradient(rgba(72, 198, 239, 0.7),rgba(111, 134, 214, 0.7)), url("../img/header.jpg");
+	background-image: linear-gradient(rgba(72, 198, 239, 0.7),rgba(111, 134, 214, 0.7)), url("../img/Header.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
