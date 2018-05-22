@@ -33,7 +33,7 @@
 
   <body>
   <div class="cover"> 
-    <nav class="navbar navbar-expand-lg navbar-light navbar-trans">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-faded py-4">
       <div class="container"> 
         <a class="navbar-brand" href="#"><img class="img-fluid d-none d-sm-block" src="../img/logo2.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -52,7 +52,6 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
@@ -63,20 +62,20 @@
         </div>
       </div>  
     </nav>
-    <div class="cover-container"> 
-      <div class="cover-inner container"> 
-          <div class="jumbo-cover"> 
+    <div class="cover-container d-flex justify-content-center"> 
+      <div class="cover-inner container row d-flex align-items-center "> 
+          <div class="jumbo-cover col-12 justify-content-center"> 
               <h2>Selamat Datang di <img src="../img/logo2.png"></h2>
               <h5>Tempat Anak Mudana Makassar Belajar Web Dev</h5>
-          </div>
-          <div class="form-inline form-subs row">
-            <input type="text" class="form-control col-3" placeholder="Email">
-            <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+              <form class="form-inline my-2 my-lg-0 d-flex justify-content-center row">
+                <input class="form-control mr-sm-2 col-4" type="search" placeholder="E-mail" aria-label="email">
+                <button class="btn btn-success my-2 my-sm-0 col-2 col-md-1" type="submit">Subscribe</button>
+            </form>   
           </div>    
       </div>
     </div>  
   </div>
-    <div class="container-fluid">
+    <div class="container-fluid cont">
 
       <!-- start categorry -->
       <div class="row">
@@ -87,23 +86,23 @@
         </div> 
       </div>
       <div class="row category justify-content-center">
-        <div class="col-md-3 col-sm-12 isi html">
+        <div class="col-md-2 col-sm-12 isi html">
           <h3>HTML</h3>
         </div>
-        <div class="col-md-3 col-sm-12 isi css">
+        <div class="col-md-2 col-sm-12 isi css">
           <h3>CSS</h3>
         </div>
-        <div class="col-md-3 col-sm-12 isi js">
+        <div class="col-md-2 col-sm-12 isi js">
           <h3>Javascript</h3>
         </div>
         <div class="w-100"></div>
-        <div class="col-md-3 col-sm-12 isi php">
+        <!-- <div class="col-md-3 col-sm-12 isi php">
           <h3>Networking</h3>
-        </div>
-        <div class="col-md-3 col-sm-12 isi sql">
+        </div> -->
+        <div class="col-md-2 col-sm-12 isi sql">
           <h3>MySQL</h3>
         </div>
-        <div class="col-md-3 col-sm-12 isi ds">
+        <div class="col-md-2 col-sm-12 isi ds">
           <h3>Design</h3>
         </div>    
           
@@ -113,7 +112,7 @@
       <!-- subscribe -->
       <div class="row subs justify-content-center">
         <div class="col-12 title-sub">
-          <h3>Subscribe Biar Gak Ketinggalan</h3>
+          <h3>Follow Kami Di </h3>
         </div>
         <div class="col-4 form-sub">
           <input class="form-control" id="ex2" type="text" placeholder="Email DI sini">
@@ -131,7 +130,7 @@
         </div>
         <div class="col-md-2 col-sm-12 isi-pop">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="http://via.placeholder.com/200x150" alt="Card image cap">
+            <img class="card-img-top" src="../img/200x150.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Pengenalan HTML</h5>
               <p class="card-text">Dasar dasar HTML dan [engenalan syntak dasar HTML</p>
@@ -143,7 +142,7 @@
         </div>
         <div class="col-md-2 col-sm-12 isi-pop">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="http://via.placeholder.com/200x150" alt="Card image cap">
+            <img class="card-img-top" src="../img/200x150.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Pengenalan CSS</h5>
               <p class="card-text">Dasar dasar HTML dan [engenalan syntak dasar HTML</p>
@@ -155,7 +154,7 @@
         </div>
         <div class="col-md-2 col-sm-12 isi-pop">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="http://via.placeholder.com/200x150" alt="Card image cap">
+            <img class="card-img-top" src="../img/200x150.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Pengenalan Javascript</h5>
               <p class="card-text">Dasar dasar HTML dan Pengenalan syntak dasar HTML</p>
@@ -180,6 +179,13 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.menu-toggle').click(function(){
+          $('nav').toggleClass('active')
+        })
+      })
+    </script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     
     <script src="js/bootstrap.min.js"></script>
