@@ -20,7 +20,7 @@
     <meta property="og:image" content="https://melada.we.id">
     <meta property="fb:admins" content="#">
     <meta property="fb:app_id" content="#">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Sorts+Mill+Goudy:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Montserrat" rel="stylesheet">
 
     <title>Melada Belajar Bersama</title>
 
@@ -32,9 +32,9 @@
 
   <body>
   <div class="cover"> 
+  <div class="inner-cover">
     <nav class="navbar navbar-expand-lg navbar-dark bg-faded py-4">
       <div class="container"> 
-        <a class="navbar-brand" href="#"><img class="img-fluid d-none d-sm-block" src="../img/logo2.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -61,47 +61,50 @@
         </div>
       </div>  
     </nav>
-    <div class="cover-container d-flex justify-content-center"> 
-      <div class="cover-inner container row d-flex align-items-center "> 
-          <div class="jumbo-cover col-12 justify-content-center"> 
-              <h2>Selamat Datang di <img src="../img/logo2.png"></h2>
+    <div class="cover-container row"> 
+      <div class="cover-inner container col-12"> 
+          <div class="jumbo-cover"> 
+              <img src="../melada.web.id/img/logo.png" class="">
               <h5>Tempat Anak Mudana Makassar Belajar Web Dev</h5>
-              <form class="form-inline my-2 my-lg-0 d-flex justify-content-center row">
-                <input class="form-control mr-sm-2 col-4" type="search" placeholder="E-mail" aria-label="email">
-                <button class="btn btn-success my-2 my-sm-0 col-2 col-md-1" type="submit">Subscribe</button>
-            </form>   
+              <div class="box">
+                <form class="input-group mb-3">
+                  <input type="text" name="" placeholder="Cari">
+                  <input type="submit" name="" value="Search">
+                </form>
+              </div>  
           </div>    
       </div>
-    </div>  
+    </div> 
+  </div> 
   </div>
     <div class="container-fluid cont">
 
       <!-- start categorry -->
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="judul">
+      <div class="row justify-content-center">
+        <div class="col-sm-12 judul">
+          <div class="box">
             <h3>Pilih Study Mu</h3>
           </div>
         </div> 
       </div>
       <div class="row category justify-content-center">
-        <div class="col-md-2 col-sm-12 isi html">
+        <div class="col-md-2 col-4 isi html">
           <h3>HTML</h3>
         </div>
-        <div class="col-md-2 col-sm-12 isi css">
+        <div class="col-md-2 col-4 isi css">
           <h3>CSS</h3>
         </div>
-        <div class="col-md-2 col-sm-12 isi js">
+        <div class="col-md-2 col-4 isi js">
           <h3>Javascript</h3>
         </div>
         <div class="w-100"></div>
-        <!-- <div class="col-md-3 col-sm-12 isi php">
+        <!-- <div class="col-md-3 col-4 isi php">
           <h3>Networking</h3>
         </div> -->
-        <div class="col-md-2 col-sm-12 isi sql">
+        <div class="col-md-2 col-4 isi sql">
           <h3>MySQL</h3>
         </div>
-        <div class="col-md-2 col-sm-12 isi ds">
+        <div class="col-md-2 col-4 isi ds">
           <h3>Design</h3>
         </div>    
           
@@ -109,13 +112,38 @@
       <!-- end categorry -->
 
       <!-- subscribe -->
-      <div class="row subs justify-content-center">
-        <div class="col-12 title-sub">
+      <div class="row justify-content-center social-cont justify-content-center">
+        <div class="col-12 social-sub">
           <h3>Follow Kami Di </h3>
         </div>
-        <div class="col-4 form-sub">
-          <input class="form-control" id="ex2" type="text" placeholder="Email DI sini">
-          <button class="btn btn-danger my-2 my-sm-0" type="submit">Subscribe</button>
+        <div class="col-5 social">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook fa-lg" aria-hidden="true"></i><span>Facebook</span>
+              </a>
+            </li>
+            <li>  
+              <a href="#">
+                <i class="fab fa-twitter fa-lg" aria-hidden="true"></i><span>Twitter</span>
+              </a>
+            </li>
+            <li>  
+              <a href="#">
+                <i class="fab fa-google-plus fa-lg" aria-hidden="true"></i><span>Google+</span>
+              </a>
+            </li>
+            <li>  
+              <a href="#">
+                <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i><span>Linkedin</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram fa-lg" aria-hidden="true"></i><span>Instagram</span>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <!-- end subscibe -->
